@@ -9,6 +9,10 @@ body, html {height: 100%}
   color: white;
 }
 
+img {
+  max-width: 90%;
+}
+
 .container {
   display: flex;
   flex-direction: column;
@@ -16,6 +20,9 @@ body, html {height: 100%}
 }
 
 .name-title {
+  display: flex;
+  text-align: center;
+  justify-content: center;
   margin-bottom: 10px;
 }
 
